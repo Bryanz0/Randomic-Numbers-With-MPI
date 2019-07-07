@@ -12,3 +12,10 @@ Se dispone de la siguiente funcion para inventar los números:
 int piensa_un_numero(); (devuelve un número aleatorio)
 
 Utiliza operaciones de comunicacion colectiva de MPI para todas las comunicaciones necesarias.
+
+**NOTA**
+Para compilar el archivo se utiliza el siguiente comando:
+`mpicc archivo.c -o ejecutable`
+Y para ejecutarlo usamos:
+`mpirun -np 4 ./ejecutable`
+*donde 4 es el número de procesos que se van a ejecutar*
